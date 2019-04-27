@@ -1,6 +1,5 @@
 #!/bin/python
 
-
 # Import scrapy
 import scrapy
 
@@ -42,6 +41,3 @@ dc_dict = dict()
 process = CrawlerProcess()
 process.crawl(DC_Description_Spider)
 process.start()
-
-# Print a preview of courses
-previewCourses(dc_dict)

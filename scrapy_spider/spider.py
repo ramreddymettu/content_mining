@@ -6,6 +6,8 @@ import scrapy
 # Import the CrawlerProcess: for running the spider
 from scrapy.crawler import CrawlerProcess
 
+url_short = 'https://assets.datacamp.com/production/repositories/2560/datasets/19a0a26daa8d9db1d920b5d5607c19d6d8094b3b/all_short'
+
 # Create the Spider class
 class DC_Description_Spider(scrapy.Spider):
   name = "dc_chapter_spider"
